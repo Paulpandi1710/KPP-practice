@@ -1,0 +1,21 @@
+import java.util.*;
+class Gopi
+{
+public static void main(String[]args)
+{
+ArrayList<String> reh=new ArrayList<>( );
+reh.add("Barry");
+reh.add("Kaitlyn");
+reh.add("Allen");
+reh.add("Snow");
+reh.add("Oliver");
+for(String sid:reh)
+{
+System.out.println("Name List:"+sid);
+}
+System.out.println("Retrive:"+reh.get(2));
+System.out.println("Update:"+reh.set(4,"Queen"));
+System.out.println("Delete:"+reh.remove(3));
+}
+}
+
